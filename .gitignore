@@ -1,0 +1,128 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# DuckDB databases
+*.db
+*.duckdb
+football_temp.db
+
+# SQLite databases (if not needed for version control)
+# Uncomment if you don't want to track the SQLite database
+# *.db
+# football.db
+
+# Parquet files (optional - uncomment if generated files shouldn't be tracked)
+# *.parquet
+# data/*.parquet
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Downloaded data (optional - uncomment if CSV files are generated/downloaded)
+# data/*.csv
+
+# Test outputs
+test-results/
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Distribution / packaging
+*.whl
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Node modules (if using Evidence.dev or other JS tools)
+node_modules/
+package-lock.json
+.npm/
+
+# Evidence.dev
+.evidence/
+.svelte-kit/
+
+# Editor backups
+*~
+*.swp
+*.swo
+*.bak
+
+# Harlequin history
+.harlequin_history
+
+# Compressed files (optional)
+*.zip
+*.tar.gz
+*.rar
+
+# data files
+/data
